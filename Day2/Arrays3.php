@@ -5,8 +5,8 @@ $ceu = array( "Italy"=>"Rome", "Luxembourg"=>"Luxembourg", "Belgium"=> "Brussels
 asort($ceu);
 
 
-foreach($ceu as $a){
-  echo $a ;  
+foreach($ceu as $key=> $value ){
+  echo "The capital of " . $key. " is.\n". $value;  
 }
 
 
