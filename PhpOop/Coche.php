@@ -1,10 +1,10 @@
 <?php
 class Car{
 
-    public $brand;
-    public $model;
-    public $year;
-    public $currentSpeed;
+    private $brand;
+    private $model;
+    private $year;
+    private $currentSpeed;
 
     function __construct($brand, $model, $year){
         $this->brand = $brand;
